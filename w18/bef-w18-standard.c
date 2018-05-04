@@ -61,6 +61,12 @@
       DJGPP v2.952       (32-bit Protected-Mode MS-DOS)
 
    ******************************************************************
+    
+    May 2018 Harvey Devereux 
+    Added functions as goto+return statments 
+    so 01f 'calls' a function at position 01 which 
+    is code that ends in r which returns the pointer to 
+    where the function was called with the same motion.
 
    v2.23: Aug 2012, Chris Pressey
           delay given with -y now actually happens when compiled
